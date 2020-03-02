@@ -22,12 +22,13 @@ if (
 function createWindow() {
   // Create the browser window.
   mainWindow = new BrowserWindow({
-    width: 1024,
-    height: 768,
+    width: 1270,
+    height: 720,
     show: false,
     webPreferences: {
       nodeIntegration: true
-    }
+    },
+    frame: false
   });
 
   // and load the index.html of the app.
